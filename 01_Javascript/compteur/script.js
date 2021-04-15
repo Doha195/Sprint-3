@@ -5,7 +5,8 @@ function compteur(x)
 { 
 x = x+i;
 i = i+1;
-document.getElementById('value').innerHTML = x; 
+document.getElementById('value').innerHTML = x;
+document.getElementById('value').style.color = "green"; 
 } 
 
 function compteurdesc(x)
@@ -13,10 +14,12 @@ function compteurdesc(x)
 x = x-i;
 i = i+1;
 document.getElementById('value').innerHTML = x; 
+document.getElementById('value').style.color = "red"; 
 }
 
 function compteur0(x)
 { 
 x = 0;
 document.getElementById('value').innerHTML = x; 
+document.getElementById('value').style.color = "black"; 
 }
